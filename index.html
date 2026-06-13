@@ -23,8 +23,8 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
  {"@type":"Organization","name":"ReBloom","url":"https://rebloom.ai/","slogan":"Beauty that stays.","description":"Korean glass-hair care for hard water in reusable packaging."},
- {"@type":"Product","name":"Glass Hair Shampoo","description":"Hard-water shampoo with GLDA, rice ferment and silk protein. Bottle reborn as a vase.","brand":{"@type":"Brand","name":"ReBloom"},"offers":{"@type":"Offer","priceCurrency":"INR","price":"649","availability":"https://schema.org/InStock","url":"https://rebloom.ai/#shop"}},
- {"@type":"Product","name":"Glass Hair Conditioner","description":"Ceramide and heartleaf conditioner for hard-water damage. Tub reborn as a planter.","brand":{"@type":"Brand","name":"ReBloom"},"offers":{"@type":"Offer","priceCurrency":"INR","price":"649","availability":"https://schema.org/InStock","url":"https://rebloom.ai/#shop"}},
+ {"@type":"Product","name":"Hair Shampoo","description":"Hard-water shampoo with GLDA, rice ferment and silk protein. Bottle reborn as a vase.","brand":{"@type":"Brand","name":"ReBloom"},"offers":{"@type":"Offer","priceCurrency":"INR","price":"649","availability":"https://schema.org/InStock","url":"https://rebloom.ai/#shop"}},
+ {"@type":"Product","name":"Hair Conditioner","description":"Ceramide and heartleaf conditioner for hard-water damage. Tub reborn as a planter.","brand":{"@type":"Brand","name":"ReBloom"},"offers":{"@type":"Offer","priceCurrency":"INR","price":"649","availability":"https://schema.org/InStock","url":"https://rebloom.ai/#shop"}},
  {"@type":"FAQPage","mainEntity":[
   {"@type":"Question","name":"Does ReBloom work with borewell / hard water?","acceptedAnswer":{"@type":"Answer","text":"Yes — that's exactly what it's built for. GLDA chelation binds and rinses away calcium and magnesium buildup that makes hair dull in hard-water regions."}},
   {"@type":"Question","name":"How do I turn my empty bottle into a vase?","acceptedAnswer":{"@type":"Answer","text":"Rinse the empty bottle with warm water, remove the pump, peel the seal, and it's ready. The conditioner tub converts the same way into a planter or desk caddy."}},
@@ -722,7 +722,7 @@ nav,nav.scrolled{-webkit-backdrop-filter:blur(20px);}
       </div>
       <div class="prod-info">
         <div class="num">01 / The Shampoo</div>
-        <h3>Glass Hair<br><em>Shampoo.</em></h3>
+        <h3>Hair<br><em>Shampoo.</em></h3>
         <div class="purpose">Smooth + Shine · 300 ml</div>
         <div class="rating"><span class="stars">★★★★★</span><b>4.9</b>· 7,400 reviews</div>
         <p class="desc">Our signature wash lifts away hard-water mineral buildup and rebuilds the cuticle for true, mirror-like glass-hair shine. Empty it, remove the pump, and it becomes a sculptural vase.</p>
@@ -779,7 +779,7 @@ nav,nav.scrolled{-webkit-backdrop-filter:blur(20px);}
       </div>
       <div class="prod-info">
         <div class="num">02 / The Conditioner</div>
-        <h3>Glass Hair<br><em>Conditioner.</em></h3>
+        <h3>Hair<br><em>Conditioner.</em></h3>
         <div class="purpose">Nourish + Care · 200 ml</div>
         <div class="rating"><span class="stars">★★★★★</span><b>4.8</b>· 5,100 reviews</div>
         <p class="desc">A weightless cream that seals the cuticle, locks in moisture and tames frizz from hard-water damage. The everyday tub cleans out into a planter or a desk caddy.</p>
@@ -807,7 +807,7 @@ nav,nav.scrolled{-webkit-backdrop-filter:blur(20px);}
     <div class="prod-row reveal" style="background:linear-gradient(135deg,#cdbeec,#b6a4e0);border-radius:30px;padding:clamp(26px,5vw,50px);margin-bottom:40px;align-items:center;">
       <div class="prod-info">
         <div class="num" style="color:#5a4694">Best value · The Duo</div>
-        <h3 style="color:#191622">The Glass Hair<br><em style="color:#5a4694">Ritual Set.</em></h3>
+        <h3 style="color:#191622">The Hair<br><em style="color:#5a4694">Ritual Set.</em></h3>
         <p class="desc" style="color:#352a52">Shampoo + Conditioner together — one becomes a vase, the other a pot. The full two-step glass-hair ritual, and two second lives in one box.</p>
         <div class="buy">
           <span class="price" style="color:#191622"><s>₹1,298</s>₹1,099</span>
@@ -1253,9 +1253,9 @@ if(FINE) document.querySelectorAll('[data-tilt]').forEach(el=>{
 
 /* ===== COMMERCE: CART / CHECKOUT / ORDER ===== */
 const PRODUCTS={
-  shampoo:{name:'Glass Hair Shampoo',sub:'Smooth + Shine · 300 ml',price:649,mrp:749,hasShade:true},
-  conditioner:{name:'Glass Hair Conditioner',sub:'Nourish + Care · 200 ml',price:649,mrp:749,hasShade:true},
-  duo:{name:'The Glass Hair Ritual Set',sub:'Shampoo + Conditioner',price:1099,mrp:1298,hasShade:false},
+  shampoo:{name:'Hair Shampoo',sub:'Smooth + Shine · 300 ml',price:649,mrp:749,hasShade:true},
+  conditioner:{name:'Hair Conditioner',sub:'Nourish + Care · 200 ml',price:649,mrp:749,hasShade:true},
+  duo:{name:'The Hair Ritual Set',sub:'Shampoo + Conditioner',price:1099,mrp:1298,hasShade:false},
 };
 /* product thumbnails from the already-embedded page images */
 (function(){PRODUCTS.shampoo.img='images/shampoo-wave.jpg';PRODUCTS.conditioner.img='images/cond-lilac.jpg';const duo=document.querySelector('.prod-media:not(.prod-carousel) img');PRODUCTS.duo.img=duo?.src;})();
